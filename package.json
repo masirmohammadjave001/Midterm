@@ -1,14 +1,15 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "sass": "^1.93.2"
   },
   "name": "midterm",
   "version": "1.0.0",
   "description": "midterm project",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch --no-source-map scss:css"
   },
   "repository": {
     "type": "git",

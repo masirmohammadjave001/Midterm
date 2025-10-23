@@ -1,0 +1,12 @@
+h1 {
+  color: red;
+}
+
+#userInput {
+  font-size: 2.5rem;
+  min-height: 120px;
+}
+
+#title {
+  color: rgb(93, 93, 206)
+}
